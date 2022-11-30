@@ -1,7 +1,7 @@
 /* Página home */
 
 body {
-    background-color: #beba9b;
+    background-color: #aa8b56;
 }
 
 #banner {
@@ -18,4 +18,8 @@ p {
 
 #mission {
     font-size: 20px;
+}
+
+em strong {
+    color: #FFFFFE;
 }
