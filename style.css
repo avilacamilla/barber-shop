@@ -1,14 +1,23 @@
 /* Página home */
 
 body {
-    background-color: #aa8b56;
+    
 }
 
 #banner {
     width: 100%;
 }
 
-h1 {
+.principal {
+    background-color: #aa8b56;
+    padding: 30px;
+}
+
+.principal-title {
+    padding-left: 20px;
+}
+
+.central-title {
     text-align: center;
 }
 
@@ -22,4 +31,24 @@ p {
 
 em strong {
     color: #FFFFFE;
+}
+
+.items {
+    font-style: italic;
+}
+
+.advantage {
+   background-color: #FFFFFF;
+   padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.image-advantage {
+    width: 50%;
 }
