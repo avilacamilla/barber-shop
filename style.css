@@ -1,9 +1,21 @@
 /* Página home */
 
+body {
+    background-color: #beba9b;
+}
+
+#banner {
+    width: 100%;
+}
+
 h1 {
     text-align: center;
 }
 
 p {
+    text-align: center;
+}
+
+#mission {
     font-size: 20px;
 }
