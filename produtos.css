@@ -41,6 +41,7 @@ nav a:hover {
 
 main {
     background-color: antiquewhite;
+    padding: 40px 0;
 }
 
 .products {
@@ -55,7 +56,6 @@ main {
     vertical-align: top;
     padding: 50px 0;
     margin: 0 1.5%;
-    margin-top: 30px;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 10px outset #aa8b56;
@@ -87,5 +87,21 @@ main {
     font-size: 22px;
     font-weight: bold;
     margin: 10px 0 0;
+}
+
+footer {
+    text-align: center;
+    background-image: url('banner.png');
+    
+}
+
+footer .logo-black {
+    width: 15%;
+}
+
+.copyright {
+    color: #FFFF;
+    font-size: 13px;
+    margin-top: 20px;
 }
 
