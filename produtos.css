@@ -92,6 +92,7 @@ main {
 footer {
     text-align: center;
     background-image: url('bg-yellow.png');
+    padding-top: 40px;
     
 }
 
@@ -103,5 +104,15 @@ footer .logo-black {
     color: #FFFF;
     font-size: 13px;
     margin-top: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: #242629;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: #7a510a;
 }
 
