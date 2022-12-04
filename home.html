@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,37 +15,85 @@
     <title>Barbearia Bronx</title>
 </head>
 <body>
-    <header>
-        <h1 class="principal-title">Barbearia Bronx</h1>
+    <header id="scroll-back">
+        <div class="box">
+            <h1><img class="logo" src="logo.png" alt="logotipo barbearia bronx"></h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Início</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <img id="banner" src="banner.jpg" alt="Imagem da barbearia bronx">
+        <img class="banner" src="banner.jpg" alt="Imagem da barbearia bronx">
 
-    <div class="principal">
-        <h2 class="central-title">Sobre a Bronx</h2>
+    <main>
+        <section class="main">
+            <h2 class="main-title">Sobre a Bronx</h2>
+            <img class="razor" src="main-image.png" alt="Foto de navalha e tesoura. Utensílios usados na barbearia Bronx">
 
-        <p>Localizada no coração da cidade, a <strong>Barbearia Bronx</strong> traz para o mercado o que há de 
-        melhor para o seu cabelo e barba. Fundada em 2017, a Barbearia Bronx já é destaque na 
-        cidade e conquista novos clientes a cada dia.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, ducimus! <strong>Barbearia Bronx</strong> Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Laborum fugit numquam deserunt non sapiente aspernatur natus, expedita unde asperiores harum..</p>
 
-        <p id="mission"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+            <p id="mission"><em>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto rem ipsa aut consectetur. Non quasi laborum odio ea quam veritatis..</strong></em></p>
 
-        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e 
-            satisfação dos nossos clientes.</p>
-    </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos ipsa provident minima. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda neque obcaecati accusamus, aperiam aliquid ipsa nam, iusto deserunt minus magnam vero non placeat ad quaerat laboriosam, impedit velit explicabo consequuntur.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi aut eum commodi incidunt quod quas rerum odit architecto dolores vitae.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nobis, minima sequi eos adipisci fuga corporis saepe harum quaerat non.
+            </p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dignissimos pariatur doloribus. Recusandae animi consequatur voluptatem cupiditate, incidunt aliquid, neque, fugiat ducimus magni eum doloremque perferendis cumque accusantium quos obcaecati.</p>
+        
+        </section>
 
-    <div class="advantage">
-            <h3 class="central-title">Benefícios</h3>
+            <section class="maps">
+                <h3 class="main-title">Venha nos visitar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum temporibus doloremque possimus fuga molestiae quasi expedita eos omnis, beatae at!</p>
 
-            <ul>
-                <li class="items">Atendimento diferenciado</li>
-                <li class="items">Espaço temático</li>
-                <li class="items">Localização</li>
-                <li class="items">Profissionais qualificados</li>
-            </ul>
+                <div class="maps-contents">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58975.561733454786!2d-44.
+                    12434540477981!3d-22.505210869507128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e
+                    a2ac4b4e5c1d%3A0xd475bc9356fcad22!2sVolta%20Redonda%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v16701169
+                    82786!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" 
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
 
-            <img src="advantage.jpg" alt="Imagem de seção de benefícios" class="image-advantage">
+
+        <section class="advantage">
+                <h3 class="main-title">Na Bronx a sua experiência é completa!</h3>
+
+                <div class="advantage-contents">
+                    <ul class="advantage-list">
+                        <li class="items">O melhor atendimento</li>
+                        <li class="items">Espaço temático</li>
+                        <li class="items">Ambiente climatizado</li>
+                        <li class="items">Cervejas artesanais</li>
+                        <li class="items">Localização privilegiada</li>
+                        <li class="items">Pontualidade</li>
+                        <li class="items">Equipe de limpeza</li>
+
+                    </ul><img src="advantage.jpg" alt="Imagem de seção de benefícios" class="advantage-image">
+                </div>
+
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/8pWtdanVz3I?start=30" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </section>
+    </main>
+
+            
+
+    <footer>
+        <img class="logo-black" src="logo-black.png" alt="logotipo da barbearia bronx">
+        <p class="copyright">&#169; Copyright <span>Bronx BarberShop</span> - 2022<br><span>Desenvolvido por </span><a href="https://www.linkedin.com/in/avilacamilla" target="_blank">Camilla Avila</a></p>
+        
+    </footer>
 
 </body>
 </html>
