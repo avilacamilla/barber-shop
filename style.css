@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Slabo 27px', serif;
+    background: #ebebea;
 }
 
 header {
@@ -39,14 +44,11 @@ nav a:hover {
     color: #c7a365;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
 
 .products {
     width: 940px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 .products li {
@@ -54,7 +56,7 @@ main {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 40px 0 40px 20px;
+    margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 10px outset #aa8b56;
@@ -85,24 +87,24 @@ main {
 .product-price {
     font-size: 22px;
     font-weight: bold;
-    margin: 10px 0 0;
+    margin: 10px;
 }
 
 footer {
     text-align: center;
-    background-image: url('bg-yellow.png');
-    padding: 30px;
+    background-image: url('bg-latte.png');
+    padding: 40px 0;
     
 }
 
 footer .logo-black {
-    width: 15%;
+    width: 20%;
 }
 
 .copyright {
     color: #FFFF;
     font-size: 13px;
-    margin-top: 30px;
+    margin-top: 20px 0 0;
 }
 
 span {
@@ -119,36 +121,33 @@ span {
 /* Formulário */
 
 form {
-    margin: 40px auto;
+    margin: 40px 0 40px 40px;
 }
 
 form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px;
+    margin: 10px 0 10px;   
 }
 
-form legend {
-    margin-top: 20px;
-    display: block;
-    font-size: 20px;
-}
+
 
 .input-pattern {
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
-    width: 50%;
+    width: 40%;
+    height: 1.8em;
     border: 1px solid #aa8b56;
     border-radius: 15px;
-    background-color: #c7a3658a;
-    
+    background-color: #c7a3658a;    
 }
 
 form textarea {
     border: 1px solid #aa8b56;
     border-radius: 15px;
     background-color: #c7a3658a;
+    width: 43%;
 }
 
 fieldset {
@@ -159,6 +158,7 @@ select {
     background: #aa8b56;
     color: #FFF;
     border-radius: 3px;
+    width: 8em;
 }
 
 option {
@@ -170,7 +170,7 @@ option {
 }
 
 .send {
-    width: 55%;
+    width: 43%;
     padding: 15px 0;
     background: #711a0de3;
     border: none;
@@ -186,6 +186,295 @@ option {
     background: #711a0dc6;
     transform: scale(1.1);
 }
+
+/* CSS da página inicial */
+
+.banner {
+    width: 100%;
+}
+
+.main {
+    padding: 6em 0;
+    background: #ebebea;
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+   
+    
+}
+
+.main-title:first-letter {
+    font-size: 1.8em;
+    
+}
+
+.main p {
+    margin: 0 0 1em;
+   
+}
+
+.main strong {
+    font-weight: bold;
+}
+
+.main em {
+    font-style: italic;
+}
+
+.razor {
+    width: 145px;
+    border-radius: 15px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.maps {
+    padding: 4em 0;
+    background: linear-gradient(#ebebea, #2426293b);
+}
+
+.map-contents {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.maps p {
+    margin: 0 0 2em;
+    text-align: center;
+} 
+
+.advantage {
+    padding: 4em 0;
+    background: linear-gradient(#2426293b, #ebebea);
+}
+
+.advantage-contents {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.advantage-list {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.items {
+    line-height: 2.4em;
+}
+
+.items:nth-child(2n) {
+    font-weight: bold;
+}
+
+.items:before {
+    content: "\2730";
+}
+
+.advantage-image {
+    width: 60%;
+    border-radius: 15px;
+    transition: 400ms;
+    box-shadow: 10px 10px 20px #242629;
+}
+
+.advantage-image:hover {
+    opacity: 0.3;
+}
+
+.video {
+    width: 560px;
+    margin: 6em auto;
+}
+
+#arrow-up {
+    margin-left: 40em;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .box, .main, .advantage-contents, .map-contents, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        width: 60%;
+        padding: 20px 0 20px 0;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .main, .maps, .advantage, .video {
+        padding: 20px 15px 0 15px;
+    }
+
+    .main-title {
+        font-size: 1.5em;
+    }
+
+    .advantage-list, .advantage-image {
+        width: 100%;
+    }
+
+    .advantage-list {
+        text-align: center;
+    }
+
+   footer .logo-black {
+        width: 40%;
+        
+    }
+
+    .products {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .products li {
+        display: block;
+        align-items: center;
+        width: auto;
+        margin: 30px 0;
+        
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box, .main, .advantage-contents, .map-contents, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        width: 40%;
+        padding: 20px 0 20px 0;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .main, .maps, .advantage, .video {
+        padding: 20px 15px 0 15px;
+    }
+
+    .main-title {
+        font-size: 1.6em;
+    }
+
+    .advantage-list, .advantage-image {
+        width: 100%;
+    }
+
+    .advantage-list {
+        text-align: center;
+    }
+
+    footer .logo-black {
+        width: 40%;
+        padding: 20px;
+    }
+
+    .products {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .products li {
+        display: block;
+        align-items: center;
+        width: auto;
+        margin: 30px 0;
+        
+
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .box, .main, .advantage-contents, .map-contents, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .logo {
+        width: 35%;
+        padding: 20px 0 20px 0;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+
+    .main, .maps, .advantage, .video {
+        padding: 20px 15px 0 15px;
+    }
+
+    .main-title {
+        font-size: 1.6em;
+    }
+
+    .advantage-list {
+        text-align: center;
+    }
+
+    .items {
+        line-height: 2.7em;
+    }
+
+    footer .logo-black {
+        width: 35%;
+        padding: 20px;
+    }
+
+    .products {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .products li {
+        display: block;
+        align-items: center;
+        width: auto;
+        margin: 30px 0;
+        
+
+    }
+}
+
+
+
+
+
+
 
 
 
