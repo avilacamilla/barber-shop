@@ -147,7 +147,7 @@ form textarea {
     border: 1px solid #aa8b56;
     border-radius: 15px;
     background-color: #c7a3658a;
-    width: 43%;
+    width: 44%;
 }
 
 fieldset {
@@ -355,9 +355,17 @@ option {
         align-items: center;
         width: auto;
         margin: 30px 0;
-        
-
     }
+
+    .checkbox {
+        font-size: 10px;
+    }
+
+    .send {
+        width: 90%;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -410,8 +418,27 @@ option {
         align-items: center;
         width: auto;
         margin: 30px 0;
-        
+    }
 
+    form {
+        align-items: center;
+    }
+
+    form .input-pattern {
+        width: 80%;
+        
+    }
+
+    form textarea {
+        width: 86%;
+    }
+
+    .checkbox {
+        font-size: 16px;
+    }
+
+    .send {
+        width: 90%;
     }
 }
 
@@ -465,8 +492,27 @@ option {
         align-items: center;
         width: auto;
         margin: 30px 0;
-        
+    }
 
+    form {
+        align-items: center;
+    }
+
+    form .input-pattern {
+        width: 80%;
+        
+    }
+
+    form textarea {
+        width: 86%;
+    }
+
+    .checkbox {
+        font-size: 18px;
+    }
+
+    .send {
+        width: 90%;
     }
 }
 
