@@ -147,7 +147,7 @@ form textarea {
     border: 1px solid #aa8b56;
     border-radius: 15px;
     background-color: #c7a3658a;
-    width: 44%;
+    width: 43%;
 }
 
 fieldset {
@@ -355,6 +355,15 @@ option {
         align-items: center;
         width: auto;
         margin: 30px 0;
+    }
+
+    form {
+        width: 80%;
+    }
+
+
+    #message {
+        width: 93%;
     }
 
     .checkbox {
